@@ -11,3 +11,11 @@ async function getquote(url) {
 }
 
 getquote(api_url);
+
+function tweet() {
+	window.open(
+		"https://twitter.com/intent/tweet?text=",
+		"Tweet Window",
+		"width=600, height=300"
+	);
+}
